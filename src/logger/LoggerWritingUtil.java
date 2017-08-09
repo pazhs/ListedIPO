@@ -1,6 +1,6 @@
 package logger;
 
-import constant.LIStrLtrConstant;
+import constant.StrLtrConst;
 
 public class LoggerWritingUtil {
 	
@@ -16,9 +16,9 @@ public class LoggerWritingUtil {
 		StringBuilder sb = new StringBuilder();
 		
 		if( bStart ) {
-			sb.append(String.format("%s of method \"%s\" of class \"%s\"", LIStrLtrConstant.AC_START, strMethodName, strClassName));
+			sb.append(String.format("%s of method \"%s\" of class \"%s\"", StrLtrConst.AC_START, strMethodName, strClassName));
 		} else {
-			sb.append(String.format("%s of method \"%s\" of class \"%s\"", LIStrLtrConstant.AC_END, strMethodName, strClassName));
+			sb.append(String.format("%s of method \"%s\" of class \"%s\"", StrLtrConst.AC_END, strMethodName, strClassName));
 		}
 		LoggerUtil.info(sb.toString());
 	}

@@ -1,5 +1,5 @@
 package constant;
 
-public class LIStrNumConstant {
+public class StrNumConst {
 	public static final String STR_ZERO = "0";
 }

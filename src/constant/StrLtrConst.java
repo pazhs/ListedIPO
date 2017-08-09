@@ -1,6 +1,6 @@
 package constant;
 
-public class LIStrLtrConstant extends LIStrLtrBaseConstant{
+public class StrLtrConst extends StrLtrBaseConst{
 	
 	/** The Constant AC_START. */
 	public static final String AC_START = "Start";

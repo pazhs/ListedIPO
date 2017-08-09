@@ -1,6 +1,6 @@
 package constant;
 
-public class LIStrLtrBaseConstant{
+public class StrLtrBaseConst{
 	
 	/** The Constant STR_EMPTY. */
 	public static final String STR_EMPTY = "";

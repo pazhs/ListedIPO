@@ -1,6 +1,6 @@
 package constant;
 
-public class LIStrProcConstant {
+public class StrProcConst {
 
 	public static final String PROC_ELAPSED_TIME = "Bhavcopy App Process completed in : %s:%s:%s.%s(in hh:mm:ss.SSS).";
 

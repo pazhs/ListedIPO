@@ -5,7 +5,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import constant.LIStrLtrConstant;
+import constant.StrLtrConst;
 
 public class ListedIPOService {
 	
@@ -46,7 +46,7 @@ public class ListedIPOService {
 		Elements bseValue = null;
 		
 		try{
-			sbIPOPageURL = new StringBuffer(LIStrLtrConstant.LI_IPO_URL).append(ipoPageNumber++);
+			sbIPOPageURL = new StringBuffer(StrLtrConst.LI_IPO_URL).append(ipoPageNumber++);
 			
 			System.out.println(sbIPOPageURL);
 			
@@ -60,7 +60,7 @@ public class ListedIPOService {
 				
 				for (Element content : contents) {
 					
-					sbCompanyURL = new StringBuffer(LIStrLtrConstant.LI_companyUrl);
+					sbCompanyURL = new StringBuffer(StrLtrConst.LI_companyUrl);
 					
 					if(mmYearIPO.isEmpty()) {
 						// month & year of IPO Issue

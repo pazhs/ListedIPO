@@ -2,7 +2,7 @@ package constant;
 /**
  * The Class LINumConstant.
  */
-public class LINumConstant {
+public class NumConst {
 	
 	/** The Constant INT_ZERO. */
 	public static final int INT_ZERO = 0;
